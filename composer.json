@@ -1,0 +1,33 @@
+{
+  "name": "tck/generator",
+  "description": "A file generator for Laravel",
+  "authors": [
+    {
+      "name": "bencarter78",
+      "email": "bencarter78@hotmail.com"
+    }
+  ],
+  "require": {
+    "illuminate/console": "^5.4",
+    "illuminate/support": "^5.4",
+    "league/flysystem": "^1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^5.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "Tck\\Generator\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tck\\Generator\\Tests\\": "tests/"
+    }
+  },
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "optimize-autoloader": true
+  }
+}
